@@ -299,7 +299,6 @@ def run_test_problem1c():
     actual = problem1c(11)
     print_actual_result_of_test(expected, actual, test_results)
 
-
     # Test 3:
     expected = 33
     print_expected_result_of_test([25], expected, test_results, format_string)
@@ -410,7 +409,6 @@ if USE_COLORING:
 else:
     # noinspection PyShadowingBuiltins
     print = testing_helper.print_uncolored
-
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

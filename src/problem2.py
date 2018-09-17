@@ -206,11 +206,10 @@ def problem2b(rect, n, delta, win):
         upper_left.y = upper_left.y - delta
         lower_right.x = lower_right.x + delta
         lower_right.y = lower_right.y + delta
-
         rectangle = rg.Rectangle(upper_left, lower_right)
         rectangle.attach_to(win)
 
-     win.render()
+    win.render()
 
 
 # ----------------------------------------------------------------------
